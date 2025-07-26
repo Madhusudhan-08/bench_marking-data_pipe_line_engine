@@ -1,0 +1,91 @@
+# --- Java Specific ---
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven/Gradle
+target/
+build/
+.gradle/
+out/
+.mvn/
+mvnw*
+gradlew*
+gradle/
+.gradle/
+build/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+.DS_Store
+
+# --- Data Pipeline Specific ---
+# Local configuration files
+/config/
+/local.properties
+/local-*.yml
+env*.yml
+
+# Data files - NEVER version control raw/processed data
+/data/
+/output/
+*.csv
+*.json
+*.parquet
+*.avro
+*.orc
+
+# Credentials and secrets
+*.keystore
+*.jks
+*.p12
+*.cert
+*.key
+*.pub
+*.crt
+*.pem
+credentials.*
+*.secret
+*.password
+secrets.yml
+vault.yml
+
+# Log files
+*.log
+logs/
+*.logs
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Documentation
+**/*.docx
+**/*.pdf
+**/*.xlsx
